@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+html,body{
+  font-family: 'roboto';
+}
+
+.container{
+  max-width: 1440px;
+  margin: auto;
+  background: hwb(235 21% 69%);
+  height: 100vh;
+  display: flex;
+  
+
+}
+
+.container-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  border-radius: 20px;
+  /* padding: 1rem; */
+  
+
+}
+
+p{
+  font-size: 10px;
+  padding: 2px;
+  /* margin: ; */
+}
+
+h2{
+  margin: 5px;
+}
+
+.text-items{
+  padding: 2rem 10px;
+  margin-top: 15px;
+  /* background-color: green; */
+  /* color: white; */
+  height: 330px;
+  width:250px ;
+  border-radius: 10px;
+  line-height: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.email{
+  padding: 5px;
+  margin-top: 10px;
+
+}
+
+.image-items img{
+ width: 220px;
+ height: 350px;
+ /* background-color: blue; */
+ 
+}
+
+label{
+  font-size: xx-small;
+  font-weight: bold;
+}
+
+ p img{
+  width: 11x;
+  height: 11px;
+  padding-right: 5px;
+}
+
+input{
+  padding: 0.4rem  ;
+  border-radius: 5px;
+  background-color: white;
+  font-size: xx-small;
+  color: black;
+  text-align: left;
+  width: 200px;
+  cursor: pointer;
+ 
+}
+
+.btn{
+  text-align: center;
+  font-size: xx-small;
+  background: hwb(235 21% 69%);
+  color: white;
+  border: none;
+  padding: 0.6rem ;
+  margin-top: 5px;
+  width: 200px;
+  transition: all 2s;
+  cursor: pointer;
+
+}
+
+.btn:hover{
+  box-shadow: 5px 5px 10px hsl(4, 44%, 41%) ;
+  background-image: linear-gradient(to left, hsl(4, 100%, 67%),rgb(212, 41, 11));
+ 
+  
+}
+
+.invalid{border: 1px solid red;}
+.error{
+  color: red;
+  font-size: xx-small;
+  margin-top:0px ;
+}
+
+.hidden{
+  display:  none;
+}
+
+.thanks{
+  background-color: white;
+  width: 280px;
+  height: 300px;
+  padding: 30px;
+  border-radius: 10px;
+  align-items: center;
+  margin: auto;
+}
+
+.thanks.h1{
+  margin-bottom: 10px;
+}
+.thanks.p{
+  margin-top: 55px;
+}
+
+.thanks input{
+  margin-top: 10px;
+}
+
+
