@@ -1,0 +1,37 @@
+.container{
+  max-width: 375px;
+  margin: auto;
+  background: hwb(235 21% 69%);
+  display: flex;
+  height: auto;
+}
+
+.container-items{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  width: 375px;
+  margin: auto;
+  height: auto;
+}
+
+.text-items{
+  padding: 4rem;
+  margin-top: 15px;
+  height:auto;
+  width:auto ;
+  border-radius: none;
+  line-height: 1.2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.image-items img{
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+ 
